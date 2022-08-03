@@ -4,4 +4,7 @@ MLP Neural Network built in Python without using tensorflow or any ML library, j
 
 I wanted to build a neural network from scratch in Python. I made some progress before I stumbled across this video (https://www.youtube.com/watch?v=w8yWXqWQYmU&t=123s) and its accompanying notebook (https://www.kaggle.com/wwsalmon/simple-mnist-nn-from-scratch-numpy-no-tf-keras) which elegantly covered everything that I wanted to do.
 
-This code is largely a duplicate of the code mentioned above, except that He initialization is used instead of uniform random initialization for the weights along with  a hidden layer of 128 nodes instead of 10 nodes. This network attains an accuracy of 91% on both training and testing data for the  MNIST dataset. 
+This code is largely a duplicate of the code mentioned above, except that He initialization is used instead of uniform random initialization for the weights along with  a hidden layer of 128 nodes instead of 10 nodes. This network attains an accuracy of 95% on both training and testing data for the  MNIST dataset. 
+
+In the notebook I have the MNIST csv files downloaded in a directory called miscdata/mnist which I load from to train/test my model. Visit this site to download the 
+accompanying MNIST csv files: (https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
